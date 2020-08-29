@@ -1,0 +1,311 @@
+/*Typography*/
+
+.intro{
+
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive;
+    color: rgb(180, 180, 180);
+    padding:100px 50px 0 50px;
+
+
+}
+
+
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+.bio{
+
+    font-size: 1.5rem;
+
+
+
+}
+
+
+
+/*Images*/
+.profile-pic{
+
+    width: 75%;
+}
+
+/*Content*/
+.colored-section {
+    background-color: #141414;
+    background-image: linear-gradient(180deg, black, #3b3b3b);
+    color: #b8b8b8;
+  }
+
+.grey-section{
+  background-color: white;
+  background-image: linear-gradient(90deg, white, grey);
+}
+
+.row{
+    margin-top:0px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar {
+    padding: 0 0 ;
+  }
+
+.logo{
+    padding:40px;
+
+}
+
+.nav-item {
+    padding: 0 40px;
+}
+
+#About {
+    position: relative;
+    text-align: center;
+  }
+
+#Interests
+{
+    position: relative;
+    text-align: center;
+}
+
+
+
+  .skill {
+    font-size: 1.5rem;
+  }
+
+  .skill-box {
+    padding: 3.5%;
+  }
+
+  .icon {
+    color: #080808;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #5e5e5e;
+  }
+
+  .heading{
+    font-weight: bolder;
+    padding-top: 3rem;
+}
+
+.brief-intro{
+    padding: 4rem 15rem;
+    text-align: center;
+
+
+}
+
+.brief-intro p{
+    font-size: 1.5rem;
+}
+
+
+ .contact-box{
+     padding:0;
+     text-align: center;
+     color: black;
+ }
+
+ .clink{
+     padding: 2rem;
+     font-size: 2rem;
+ }
+
+ .interest-img{
+     width: 30%;
+ }
+
+ .interest-box{
+    padding: 4.5%;
+ }
+
+footer{
+  text-align: center;
+}
+
+
+.nav-color{
+    background-color: black;
+}
+
+.progressbar{
+  background-color: black;
+  background-image: linear-gradient(90deg, black, grey);
+}
+
+.contact-header{
+  text-align: center;
+  padding: 10px 400px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+}
+
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+
+}
+
+.middle {
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.bottom {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+.contact-line{
+  font-size: 1.2rem;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 699px) {
+
+    .logo{
+        padding: 20px;
+    }
+
+    .intro{
+        font-size: 4rem;
+        padding-top: 0px;
+    }
+
+    .intro-line{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+
+
+    .profile-pic{
+        border-radius: 50%;
+
+    }
+
+    .profile{
+        text-align: center;
+    }
+
+    .bio{
+        font-size: 0.9rem;
+    }
+
+    .brief-intro p{
+        font-size: 0.8rem;
+    }
+    .brief-intro{
+        padding: 1rem 1rem;
+
+    }
+
+    .contact-box{
+        padding: 0rem 4rem;
+
+    }
+    .contact-box p{
+        font-size: 0.8rem;
+    }
+    .clink{
+        padding: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+    .contact-header{
+      text-align: center;
+      padding: 10px 10px;
+    }
+
+}
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+
+
+    .title{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .profile-pic{
+        border-radius: 50%;
+
+    }
+
+    .profile{
+        text-align: center;
+    }
+
+    .bio{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        padding-top: 0px;
+    }
+
+    .contact-box{
+        padding: 3rem 5rem;
+    }
+    .brief-intro p{
+        font-size: 1rem;
+    }
+    .brief-intro{
+        padding: 2rem 5rem;
+
+    }
+    .clink{
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+    }
+
+    .contact-header{
+      text-align: center;
+      padding:10 20px;
+    }
+}
